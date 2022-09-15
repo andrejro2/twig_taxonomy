@@ -1,0 +1,4 @@
+name: Twig taxonomy extensions
+description: 'Twig extension to get data for the parent taxonomy terms'
+core_version_requirement: ^8 || ^9
+type: module

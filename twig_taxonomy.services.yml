@@ -1,0 +1,6 @@
+services:
+  twig_taxonomy.twig_extensions:
+    class: Drupal\twig_taxonomy\Twig\Extension\Extensions
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: twig.extension }
